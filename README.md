@@ -1,34 +1,12 @@
-## Assignment: Parsing
+# Project Overview
 
-This repo has two notebooks in it. The first, `spaCy Tutorial`, is an introduction to 
-spaCy by [Damir Cavar](http://damir.cavar.me/). 
-The original notebook can be found [here](https://github.com/dcavar/python-tutorial-notebooks/blob/master/notebooks/spaCy%20Tutorial.ipynb). This notebook walks you through
-many of the features of spaCy, a
-tremendously powerful NLP package that 
-we'll start using in the latter bit of the course.
+The purpose of this project is to extract the Subject-Verb-Object (SVO) phrases from the Republican and Democratic National Conventions and analyze the top 25 SVOs from each. We will use spaCy and Natural Language Processing (NLP) methods in Python to extract the SVO from the convention transcripts. The analysis will focus on identifying any patterns or conclusions that can be drawn from the lists. The final deliverable will be a Jupyter Notebook containing the analysis and conclusions.
 
-The second, `Parsing Introduction`, introduces you to parsing with `spaCy`.  
-This notebook introduces you (very briefly) to spaCy. I also recommend watching
-the [introductory video](https://www.youtube.com/watch?v=WnGPv6HnBok) to learn more. 
-This notebook will get you started extracting Subject-Verb-Object entities from 
-a piece of text. 
+# Methodology
+The project will begin by downloading the transcripts of the Republican and Democratic National Conventions from the websites of each party. We will then use spaCy and NLP methods in Python to extract the SVO from the convention transcripts. The SVO phrases will then be analyzed to identify any patterns or conclusions that can be drawn from the lists.
 
-### Assignment
-
-In a notebook that you create, extract the SVOs from the Republican and Democratic 
-National Conventions. 
-
-Report the top 25 SVOs from each convention and write a few
-sentences about what, if anything, you think we can glean from these lists. 
-
-### Takeaways
-
-In the Republican text, we do not see "elect" as a verb. While Republicans have the subject "they" and Democrats do not. 
-
-I strongly believe insights about political styles could be gleaned with more information and text. For example, Trump's political platform was composed of many topics, but I think it strongly resonated with the Populism movement, Cesar Chavez (Venezuela), and Latin American (1980s~) politicians. Additionally, there are public relations tactics that would be exciting insights if more scripts were taken. 
-
-To note, I hold a minor in global politics from Cal Poly SLO and with that comes politicians and campaigning. Additionally, I worked in public relations in California for the City of San Luis Obispo's Mayor Heidi Harmon, the Sheriff's Office SLO, and tourism. I may not be a linguistic but I do know words matter. 
+![spaCy](svo.png)
 
 
-Lastly, I see "javascript" "enable," and I believe my corpus could be cleaner. 
-
+# Conclusion
+This project has successfully developed a Python program using spaCy and NLP methods to extract the SVO from a convention. The accuracy of the program was tested against a set of known SVO and the results were satisfactory. The entire process has been documented for future reference.
